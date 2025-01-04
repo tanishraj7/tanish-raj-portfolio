@@ -1,8 +1,9 @@
 import ecom from '../../assets/ecom.png'
-import loan from '../../assets/loan.png'
+import loan from '../../assets/concept.png'
 import chatbot from '../../assets/chatbot.jpg'
 import styles from './ProjectsStyles.module.css'
 import ProjectCard from '../../common/ProjectCard'
+import cartoon from '../../assets/opencv.png'
 
 function Projects() {
   return (
@@ -13,12 +14,17 @@ function Projects() {
             src={ecom}
             link="https://github.com/tanishraj7/React-Advanced-filtering-ecom"
             h3='GINNIs CART'
-            p='ecommerce webapp'/>
+            p='react ecommerce webapp'/>
             <ProjectCard
             src={chatbot}
             link="https://github.com/tanishraj7/AI-chatbot"
             h3='MY ASSISTANT'
             p='ai chatbot and visionbot'/>
+            <ProjectCard
+            src={cartoon}
+            link="https://github.com/tanishraj7/cartoon-image-webapp"
+            h3='CARTOONING AN IMAGE'
+            p='creates a comic version of an image'/>
             <ProjectCard
             src={loan}
             link="https://github.com/tanishraj7/loan_payment_difficulties_prediction-kagglethon-"

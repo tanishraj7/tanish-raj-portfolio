@@ -8,7 +8,7 @@ import linkedinLight from '../../assets/linkedin-light.svg'
 import moon from '../../assets/moon.svg'
 import CV from '../../assets/tanish-raj-cv.pdf'
 import { useTheme } from '../../common/ThemeContext'
-import me from '../../assets/me2.png'
+import me from '../../assets/pfp.jpeg'
 
 function Hero() {
     const {theme, toggleTheme}= useTheme();
@@ -28,6 +28,7 @@ function Hero() {
         <div className={styles.info}>
             <h1>Tanish Raj <br/> Singh</h1>
             <h2>Computer Science Engineer</h2>
+            <h3>MANIPAL UNIVERSITY JAIPUR'26</h3>
             <span>
                 <a href='https://www.linkedin.com/in/tanishrajsingh/' target='_blank'>
                 <img src={linkedinIcon} alt='linkedin'></img>
@@ -36,8 +37,8 @@ function Hero() {
                 <img src={githubIcon} alt='github'></img>
                 </a>
             </span>
-            <p>*Machine Intelligence and Data Analysis Intern, MNIT'23</p>
-            <p>*Front-end Developer Intern, Vital Skills'24</p>
+            <p>- Machine Intelligence and Data Analysis Intern, MNIT (June-July'23)</p>
+            <p>- Front-end Developer Intern, Vital Skills (June-July'24)</p>
             <a href={CV} download>
                 <button className='hover' onClick={clickHandler}>Resume</button>
             </a>
