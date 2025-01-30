@@ -4,6 +4,7 @@ import chatbot from '../../assets/chatbot.jpg'
 import styles from './ProjectsStyles.module.css'
 import ProjectCard from '../../common/ProjectCard'
 import cartoon from '../../assets/opencv.png'
+import hserver from '../../assets/server.jpg'
 
 function Projects() {
   return (
@@ -15,6 +16,11 @@ function Projects() {
             link="https://github.com/tanishraj7/React-Advanced-filtering-ecom"
             h3='GINNIs CART'
             p='react ecommerce webapp'/>
+            <ProjectCard
+            src={hserver}
+            link="https://github.com/tanishraj7/my-own-http-server"
+            h3='Built my own HTTP server'
+            p='GET, POST request and response'/>
             <ProjectCard
             src={chatbot}
             link="https://github.com/tanishraj7/AI-chatbot"

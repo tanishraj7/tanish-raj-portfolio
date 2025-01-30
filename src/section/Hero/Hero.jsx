@@ -6,7 +6,7 @@ import githubDark from '../../assets/github-dark.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import moon from '../../assets/moon.svg'
-import CV from '../../assets/tanish-raj-cv.pdf'
+import CV from '../../assets/resume.pdf'
 import { useTheme } from '../../common/ThemeContext'
 import me from '../../assets/pfp.jpeg'
 
@@ -16,7 +16,7 @@ function Hero() {
     const linkedinIcon= theme === 'light'? linkedinLight: linkedinDark;
     const githubIcon= theme === 'light'? githubLight: githubDark;
     const clickHandler= ()=>{
-        alert('Download Resume?')
+        alert('Resume saved in files.')
     }
 
     return (
