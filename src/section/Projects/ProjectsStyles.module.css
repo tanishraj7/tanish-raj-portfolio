@@ -10,20 +10,24 @@
       align-self: center;
       background-color: var(--project-card-bg);
       border-radius: 20px;
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.3s ease-in-out;
     }
     img:hover{
       box-shadow: 0 0 10px rgb(95, 93, 93), 0 0 15px white;
+      transform: scale(1.1) rotate(1.9deg);
+      filter: brightness(1.2) contrast(1.1);
     }
   
     a {
       width: fit-content;
       text-decoration: none;
       color: #222;
-      transition: transform 200ms ease-in-out;
+      transition: transform 200ms ease-in-out, opacity 0.3s ease-in-out;
     }
   
     a:hover {
-      transform: scale(1.05);
+      transform: scale(1.1);
+      opacity: 0.9;
     }
 
     hr{

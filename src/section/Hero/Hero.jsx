@@ -37,8 +37,8 @@ function Hero() {
                 <img src={githubIcon} alt='github'></img>
                 </a>
             </span>
-            <p className={styles.typing}>- Machine Intelligence and Data Analysis Intern, MNIT (June-July'23)</p>
-            <p className={styles.typing}>- Front-end Developer Intern, Vital Skills (June-July'24)</p>
+            <p className={styles.typing}>- ML and Data Analysis Intern, MNIT (June-July'23)</p>
+            <p className={styles.typing}>- Front-end Dev Intern, Vital Skills (June-July'24)</p>
             <a href={CV} download>
                 <button className='hover' onClick={clickHandler}>Resume</button>
             </a>
