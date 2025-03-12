@@ -6,7 +6,7 @@ import githubDark from '../../assets/github-dark.svg'
 import linkedinDark from '../../assets/linkedin-dark.svg'
 import linkedinLight from '../../assets/linkedin-light.svg'
 import moon from '../../assets/moon.svg'
-import CV from '../../assets/resume.pdf'
+import CV from '../../assets/tanish-raj-cv.pdf'
 import { useTheme } from '../../common/ThemeContext'
 import me from '../../assets/pfp.jpeg'
 
@@ -37,8 +37,8 @@ function Hero() {
                 <img src={githubIcon} alt='github'></img>
                 </a>
             </span>
-            <p>- Machine Intelligence and Data Analysis Intern, MNIT (June-July'23)</p>
-            <p>- Front-end Developer Intern, Vital Skills (June-July'24)</p>
+            <p className={styles.typing}>- Machine Intelligence and Data Analysis Intern, MNIT (June-July'23)</p>
+            <p className={styles.typing}>- Front-end Developer Intern, Vital Skills (June-July'24)</p>
             <a href={CV} download>
                 <button className='hover' onClick={clickHandler}>Resume</button>
             </a>
