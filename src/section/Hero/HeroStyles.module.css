@@ -84,9 +84,9 @@
       width: 0;
     }
     50%{
-      width: 100%;
+      width: 97%;
     }
-    100%{
+    97%{
       width: 0;
     }
   }
@@ -102,7 +102,7 @@
     overflow: hidden;
     border-right: 2px solid grey;
     width: 0;
-    animation: typing 10s steps(40, end) infinite, blink 1s step-end infinite ;
+    animation: typing 6s steps(40, end) infinite, blink 1s step-end infinite ;
   }
 
   @media (width >= 800px) {
