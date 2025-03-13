@@ -81,13 +81,13 @@
 
   @keyframes typing{
     0%{
-      width: 0;
+      width: 1;
     }
     50%{
       width: 97%;
     }
     97%{
-      width: 0;
+      width: 1;
     }
   }
 
