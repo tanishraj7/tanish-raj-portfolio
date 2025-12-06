@@ -31,11 +31,11 @@ function Projects() {
             link="https://github.com/tanishraj7/cartoon-image-webapp"
             h3='CARTOONING AN IMAGE'
             p='creates a comic version of an image'/>
-            <ProjectCard
+            {/* <ProjectCard
             src={loan}
             link="https://github.com/tanishraj7/loan_payment_difficulties_prediction-kagglethon-"
             h3='LOAN PAYMENT PREDICTION'
-            p='predict payment difficulties'/>
+            p='predict payment difficulties'/> */}
         </div>
     </section>
   )
