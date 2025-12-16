@@ -49,7 +49,7 @@ function Hero() {
                 <img src={githubIcon} alt='github'></img>
                 </a>
             </span>
-            <p><i>Versatile Computer Science undergrad with hands-on experience in software development, AI model pipelines, and NLP-powered search assistants. Built enterprise-level products and GenAI pipelines. Passionate about building scalable tech that thinks, acts, and delivers measurable impact.</i></p>
+            <p><i>Versatile Computer Science undergrad with hands-on experience in software development, AI pipelines, and NLP-powered search systems.Driven to build scalable, production-ready GenAI solutions that deliver real, measurable impact.</i></p>
             <a href={CV} download>
                 <button className='hover' onClick={clickHandler}>Resume</button>
             </a>
