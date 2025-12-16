@@ -27,6 +27,9 @@
         }
       }
     }
+    p {
+      width: 30rem;
+    }
   
     a {
       width: fit-content;
@@ -97,13 +100,13 @@
     }
   }
 
-  .typing{
+  /* .typing{
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid grey;
     width: 0;
     animation: typing 10s steps(40, end) infinite, blink 1s step-end infinite;
-  }
+  } */
 
   @media (width >= 800px) {
     .container {

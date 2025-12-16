@@ -1,10 +1,10 @@
 import ecom from '../../assets/ecom.png'
-import loan from '../../assets/concept.png'
 import chatbot from '../../assets/chatbot.jpg'
 import styles from './ProjectsStyles.module.css'
 import ProjectCard from '../../common/ProjectCard'
-import cartoon from '../../assets/opencv.png'
-import hserver from '../../assets/server.jpg'
+import cicd from '../../assets/connect4.png'
+import ola from '../../assets/ola.jpg'
+import aexp from '../../assets/aexp.jpg'
 
 function Projects() {
   return (
@@ -13,29 +13,29 @@ function Projects() {
         <div className={styles.projectsContainer}>
             <ProjectCard
             src={ecom}
-            link="https://github.com/tanishraj7/React-Advanced-filtering-ecom"
+            link="https://github.com/tanishraj7/gc-full-stack-with-ai-agent"
             h3='GINNIs CART'
-            p='react ecommerce webapp'/>
-            <ProjectCard
-            src={hserver}
-            link="https://github.com/tanishraj7/my-own-http-server"
-            h3='Built my own HTTP server'
-            p='GET, POST request and response'/>
+            p='ecom with AI shopping agent'/>
             <ProjectCard
             src={chatbot}
-            link="https://github.com/tanishraj7/AI-chatbot"
-            h3='DATA ASSISTANT'
-            p='smart search assistant'/>
+            link="https://github.com/tanishraj7/smart-search-assistant"
+            h3='EduBud'
+            p='RAG based AI assistant'/>
             <ProjectCard
-            src={cartoon}
-            link="https://github.com/tanishraj7/cartoon-image-webapp"
-            h3='CARTOONING AN IMAGE'
-            p='creates a comic version of an image'/>
-            {/* <ProjectCard
-            src={loan}
-            link="https://github.com/tanishraj7/loan_payment_difficulties_prediction-kagglethon-"
-            h3='LOAN PAYMENT PREDICTION'
-            p='predict payment difficulties'/> */}
+            src={cicd}
+            link="http://15.207.190.7:3000/"
+            h3='Connect4'
+            p='CI/CD pipeline for distributed system'/>
+            <ProjectCard
+            src={ola}
+            link="https://github.com/tanishraj7/ola-da-project"
+            h3='Ola Rides Data Analysis'
+            p='Advanced analysis to identify key business trends'/>
+            <ProjectCard
+            src={aexp}
+            link="https://github.com/tanishraj7/ae-user-exit-webapp"
+            h3='AEXP Churn prediction app'
+            p='ANN-based churn prediction model with TensorFlow'/>
         </div>
     </section>
   )
