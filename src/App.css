@@ -3,6 +3,8 @@
   --btn-color: #0987f2;
   --btn-text-color: #fff;
   --project-card-bg: #ffffff00;
+  --exp-card-border: #222;
+  --exp-text-color: #222;
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
@@ -13,6 +15,8 @@
   --btn-color: #fff;
   --btn-text-color: #222;
   --project-card-bg: #fff;
+  --exp-card-border: #fff;
+  --exp-text-color: #fff;
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
@@ -34,6 +38,7 @@ body {
 h1,
 h2,
 h3,
+h4,
 p {
   color: var(--text-color);
   margin: 0;
@@ -42,6 +47,7 @@ p {
 
 h2,
 h3,
+h4,
 p {
   font-family: 'Roboto Mono', monospace;
 }

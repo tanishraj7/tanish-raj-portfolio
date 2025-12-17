@@ -41,6 +41,7 @@ function Hero() {
         <div className={styles.info}>
             <h1>Tanish Raj <br/> Singh</h1>
             <h3>MANIPAL UNIVERSITY JAIPUR'26</h3>
+            <p><i>Computer Science undergrad with hands-on experience in software development, AI pipelines and systems. Driven to build scalable solutions that deliver real, measurable impact.</i></p>
             <span>
                 <a href='https://www.linkedin.com/in/tanishrajsingh/' target='_blank'>
                 <img src={linkedinIcon} alt='linkedin'></img>
@@ -49,7 +50,6 @@ function Hero() {
                 <img src={githubIcon} alt='github'></img>
                 </a>
             </span>
-            <p><i>Versatile Computer Science undergrad with hands-on experience in software development, AI pipelines, and NLP-powered search systems.Driven to build scalable, production-ready GenAI solutions that deliver real, measurable impact.</i></p>
             <a href={CV} download>
                 <button className='hover' onClick={clickHandler}>Resume</button>
             </a>

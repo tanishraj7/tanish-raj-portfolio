@@ -27,9 +27,6 @@
         }
       }
     }
-    p {
-      width: 25rem;
-    }
   
     a {
       width: fit-content;
@@ -79,34 +76,10 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 550px;
+    padding: 5px;
   }
 
-
-  @keyframes typing{
-    0%{
-      width: 1;
-    }
-    50%{
-      width: 97%;
-    }
-    97%{
-      width: 1;
-    }
-  }
-
-  @keyframes blink{
-    50%{
-      border-color: transparent;
-    }
-  }
-
-  /* .typing{
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid grey;
-    width: 0;
-    animation: typing 10s steps(40, end) infinite, blink 1s step-end infinite;
-  } */
 
   @media (width >= 800px) {
     .container {
